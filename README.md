@@ -6,7 +6,7 @@ Open mysql and make sure the database revenue exists:
 `CREATE DATABASE IF NOT EXISTS revenue;`
 
 ### Make sure the user that the application uses exists:
-`grant all on ``revenue``.* to ``pyoung``@``localhost`` identified by ``password``;`
+`grant all on `revenue`.* to `pyoung`@`localhost` identified by `password`;`
 
 
 # To Run
