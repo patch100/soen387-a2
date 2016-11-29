@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <description></description>
+        <display-name>Contract Controller</display-name>
+        <servlet-name>ContractController</servlet-name>
+        <servlet-class>controllers.ContractController</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ContractController</servlet-name>
+        <url-pattern>/contract</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>Contracts Controller</display-name>
+        <servlet-name>ContractsController</servlet-name>
+        <servlet-class>controllers.ContractsController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ContractsController</servlet-name>
+        <url-pattern>/contracts</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>Revenue Recognition Controller</display-name>
+        <servlet-name>RevenueRecognitionController</servlet-name>
+        <servlet-class>controllers.RevenueRecognitionController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RevenueRecognitionController</servlet-name>
+        <url-pattern>/revenues</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>Revenue Before Date Controller</display-name>
+        <servlet-name>RevenueBeforeDateController</servlet-name>
+        <servlet-class>controllers.RevenueBeforeDateController</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RevenueBeforeDateController</servlet-name>
+        <url-pattern>/before</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="assignment2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/assignment2_war_exploded</output-path>
+    <root id="archive" name="assignment2_war exploded.war">
+      <element id="javaee-facet-resources" facet="assignment2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="assignment2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
