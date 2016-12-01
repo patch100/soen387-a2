@@ -8,6 +8,12 @@ Open mysql and make sure the database revenue exists:
 ### Make sure the user that the application uses exists:
 `grant all on `revenue`.* to `pyoung`@`localhost` identified by `password`;`
 
+### Create the tables and insert data:
+from command line (inside the assignment2 dir) run:
+  
+`mysql -p revenue < create_tables_and_data.sql`
+
+
 
 # To Run
 ## Tomcat:
